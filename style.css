@@ -8,12 +8,23 @@
     color: #F9FAF8;
 }
 
+
+
+.herosecondarytext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .heroaderlogotext{
     font-size: 24px;
     color:#F9FAF8;
 }
 
-.button{
+button{
+    background-color: #3882F6;
+}
+
+.calltoaction{
     background-color: #3882F6;
 }
 
@@ -23,17 +34,14 @@
     color: #1F2937;
 }
 
-.herosecondarytext{
-    font-size: 18px;
-    color: #E5E7EB;
-}
+
 
 .nav{
     display: flex;
     justify-content: space-between;
 }
 
-.quate{
+.quote{
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
