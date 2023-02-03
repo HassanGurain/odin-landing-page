@@ -1,8 +1,45 @@
+.darkbackgrouund{
+    background-color: #1F2937;
+}
+
+.heromaintext{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.heroaderlogotext{
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+.button{
+    background-color: #3882F6;
+}
+
+.infoheadertext{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.herosecondarytext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .nav{
     display: flex;
     justify-content: space-between;
 }
 
+.quate{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
 .nav div{
     display: flex;
 }
+
