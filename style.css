@@ -28,69 +28,70 @@ button{
     color:#F9FAF8;
 }
 
-
-
-
-/* Nav bar */
-
-.nav{
-    display: flex;
-    padding: 50;
-    justify-content: space-around;
-}
-
-
-
-
-
-
-
-.calltoaction{
-    background-color: #3882F6;
-}
-
 .infoheadertext{
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
 }
 
+
+.container{
+    display: flex;
+    padding-inline: 10%;
+    justify-content: space-between;
+}
+
+/* Nav bar */
+
+
+
+
+
+
+
+
+/* Awsome */
+
+
+
+
+
+/* Random Information */
+
+
+
+
+
+/* Quote */
+
 .quote{
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    display: flex;
-    flex-direction: column;
 }
 
 
+/* Call to Action */
 
-
-.headerlniks{
-    display: flex;
-    gap:20px;
+.calltoaction{
+    background-color: #3882F6;
+    margin-inline: 10%;
 }
 
-.awsome{
-    display:flex;
-    justify-content: space-around;
-    flex:1 1 auto;
-}
 
-img{
-    max-width: 100%;
-    max-height: auto;
-}
+/* Footer */
 
-.hero{
-    display: flex;
-    flex-direction: column;
-    flex:1 1 auto;
-    flex-wrap: wrap;
-}
 
-.info{
-    display: flex;
-    justify-content: space-around;
-}
+
+
+
+
+
+
+
+
+
+
+
+
