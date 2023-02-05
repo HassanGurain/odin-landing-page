@@ -25,8 +25,21 @@
 
 button{
     background-color: #3882F6;
-    color:#F9FAF8;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
+
+button:hover {
+    background-color: white; /* Green */
+    color: #3882F6;
+  }
 
 .infoheadertext{
     font-size: 36px;
@@ -39,12 +52,31 @@ button{
 .container{
     display: flex;
     padding-inline: 10%;
+    padding-top: 15px;
+    padding-bottom: 15px;
     justify-content: space-between;
+    align-items: center;
+}
+
+.containercolumn{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-inline: 10%;
+    justify-content: space-between;
+}
+
+.flexitem{
+    flex:1;
 }
 
 /* Nav bar */
 
-
+.nav{
+    padding-top: 0;
+    align-items: flex-start;
+}
 
 
 
@@ -52,7 +84,6 @@ button{
 
 
 /* Awsome */
-
 
 
 
@@ -67,23 +98,30 @@ button{
 
 .quote{
     background-color: #E5E7EB;
-    font-size: 36px;
+    font-size: 24px;
     font-style: italic;
     color: #1F2937;
 }
 
+.quoteby{
+    align-self: flex-end;
+}
 
 /* Call to Action */
 
 .calltoaction{
     background-color: #3882F6;
-    margin-inline: 10%;
+    margin: 50px;
+    border-radius: 10px;
 }
 
 
 /* Footer */
 
+footer{
+    text-align: center;
 
+}
 
 
 
